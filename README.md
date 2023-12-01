@@ -42,7 +42,7 @@ pip install flask pandas langchain requests
 ```
 
 ### Prepare Your OpenAI Key
-Please update your own OpenAI key in the provide empty .env file.
+Please update your own OpenAI key in the provide empty .env file. Remember, this file is 'hidden' so it might not show up in your directory
 <img width="664" alt="openai_key" src="https://github.com/devindatt/market_data_query_API/assets/42626142/418f9dde-5df7-469b-b381-bfcae7516b1e">
 
 

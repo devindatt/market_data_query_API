@@ -3,32 +3,36 @@
 ![screenshot_example](https://github.com/devindatt/market_data_query_API/assets/42626142/99227db0-f1a4-4512-8ef3-148bf6b5a230)
 
 ## Overview
-Created a REST API in Python service that allows a user to query market data with a question. It uses a LLM natural language capability to extract info and perform a look in a static preloaded market data csv.
+Created a REST API in Python service that allows a user to query market data with a question. It uses a LLM natural language capability to extract info and performs a look in a static preloaded market data csv.
 
-This Flask-based API provides an interface to parse user questions about stock metrics and retrieve specific data points from a preloaded dataset. Utilizing LangChain for natural language understanding, it extracts key information (ticker symbol and metric) from a user's query and looks up the corresponding value in a Pandas DataFrame loaded from a CSV file.
+This Flask-based API runs LOCALLY on your machine and provides an interface to parse user questions about stock metrics and retrieve specific data points from a preloaded dataset. Utilizing LangChain for natural language understanding, it extracts key information (ticker symbol and metric) from a user's query and looks up the corresponding value in a locally preloaded Pandas DataFrame loaded from a CSV file.
 
 ## Features
 - **Natural Language Query Parsing**: Leverages LangChain to interpret user questions.
 - **Stock Data Lookup**: Searches a preloaded dataset for specific stock metrics.
 - **RESTful API**: Easy-to-use REST API for sending queries and receiving responses.
 
-## Getting Started
 
-### Prerequisites
-Python 3.x
-Flask
-Pandas
-LangChain
-Requests (for the client script)
+## Getting Started
 
 ### Installation
 Clone the repository:
-![git_clone](https://github.com/devindatt/market_data_query_API/assets/42626142/127af300-d08b-4f13-a916-2476980e14b3)
-
 ```
 git clone https://github.com/yourusername/market_data_query_API
 cd market_data_query_API
 ```
+
+### Prerequisites from File
+- Python 3.x
+- Flask
+- Pandas
+- LangChain
+- Requests (for the client script)
+
+Run the 'Requirement.txt file to load all the prerequisties
+<img width="836" alt="requirements_install" src="https://github.com/devindatt/market_data_query_API/assets/42626142/a17b10fb-c300-4867-aac6-4554d40649d2">
+
+Or alternatively, install the packages separately:
 
 ### Install the required packages:
 ![pip install](https://github.com/devindatt/market_data_query_API/assets/42626142/788fc0d7-4679-4b61-91e6-909dd47e59fe)
@@ -36,6 +40,12 @@ cd market_data_query_API
 ```
 pip install flask pandas langchain requests
 ```
+
+### Prepare Your OpenAI Key
+Please update your own OpenAI key in the provide empty .env file.
+<img width="664" alt="openai_key" src="https://github.com/devindatt/market_data_query_API/assets/42626142/418f9dde-5df7-469b-b381-bfcae7516b1e">
+
+
 
 ### Usage
 

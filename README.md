@@ -30,7 +30,7 @@ cd market_data_query_API
 - Requests (for the client script)
 
 Run the 'Requirement.txt file to load all the prerequisties
-<img width="836" alt="requirements_install" src="https://github.com/devindatt/market_data_query_API/assets/42626142/a17b10fb-c300-4867-aac6-4554d40649d2">
+<img width="916" alt="requirements_install" src="https://github.com/devindatt/market_data_query_API/assets/42626142/8fffee96-0a49-4d7f-afea-75beba42551f">
 
 Or alternatively, install the packages separately:
 

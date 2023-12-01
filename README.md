@@ -18,7 +18,7 @@ This Flask-based API runs LOCALLY on your machine and provides an interface to p
 ### Installation
 Clone the repository:
 ```
-git clone https://github.com/yourusername/market_data_query_API
+git clone https://github.com/devindatt/market_data_query_API
 cd market_data_query_API
 ```
 
